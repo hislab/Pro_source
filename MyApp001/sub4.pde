@@ -1,13 +1,13 @@
-void draw_sub2() {
+void draw_sub4() {
   noStroke();
   fill(255,255,255);
   rect(0,0,xsize,ysize);
   
   textSize(40);
   fill(100,100,100);
-  text("Application 2", 75, 150);
+  text("Application 3", 75, 150);
   
-  fill(127,255,127);
+  fill(255,255,127);
   rect(100,500,xsize-200,100);
   
   if (mousePressed) {

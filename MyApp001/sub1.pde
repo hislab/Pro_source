@@ -7,7 +7,7 @@ void draw_sub1() {
   fill(100,100,100);
   text("Application 1", 75, 150);
   
-  fill(127,255,255);
+  fill(255,127,127);
   rect(100,500,xsize-200,100);
   
   if (mousePressed) {

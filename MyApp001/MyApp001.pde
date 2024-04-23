@@ -23,6 +23,9 @@ void draw() {
     case 3:
       draw_sub3();
       break;
+    case 4:
+      draw_sub4();
+      break;
     default:
       mode=0;
       draw_main();

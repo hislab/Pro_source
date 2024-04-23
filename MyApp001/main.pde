@@ -5,19 +5,22 @@ void draw_main() {
   
   textSize(40);
   fill(100,100,100);
-  text("App Sample", 75, 150);
+  text("App Sample", 100, 100);
   fill(255,127,127);
-  rect(25,200,xsize-50,60);
+  rect(25,150,xsize-50,60);
   fill(127,255,127);
-  rect(25,300,xsize-50,60);
+  rect(25,250,xsize-50,60);
   fill(127,127,255);
-  rect(25,400,xsize-50,60);
+  rect(25,350,xsize-50,60);
+  fill(255,255,127);
+  rect(25,450,xsize-50,60);
   
   if (mousePressed) {
     if (mouseX >= 25 && mouseX <=xsize-50) {
-      if(mouseY >= 200 && mouseY <= 260) { mode=1;}
-      else if(mouseY >= 300 && mouseY <= 360) { mode=2; }
-      else if(mouseY >= 400 && mouseY <= 460) { mode=3; }
+      if(mouseY >= 150 && mouseY <= 260) { mode=1;}
+      else if(mouseY >= 250 && mouseY <= 310) { mode=2; }
+      else if(mouseY >= 350 && mouseY <= 410) { mode=3; }
+      else if(mouseY >= 450 && mouseY <= 510) { mode=4; }
     }
   }
 }
